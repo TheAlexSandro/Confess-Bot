@@ -5,17 +5,17 @@ const db = propertiesReader('./path/to/properties.file');
 const save = propertiesReader('./path/to/properties.file', {writer: { saveSections: true }});
 const token = "5644595503:AAF0QVB1xll7K8NIbrHSXJw6PNfXZXiu0tM"
 const user = new duaGram({
-    api_id: 15270252,
-    api_hash: '5ca33806c55e59c8b60b66363c0cd354',
+    api_id: 'idk',
+    api_hash: 'idk',
     // Fill in the session here if you have one, or leave it blank
-    session: '1AQAOMTQ5LjE1NC4xNzUuNjABu4kbLTnG7ILeJFHqHj4wO5A8RoDC9XMK4px6kYz86uRqr4WdDc8QmYW79wjf8PxT0TdZTfZMxiDJoeKmQ/8dp7jyoGNaMpuDih+Nl4HqexocA6+jwrSrhRLo+zuo//PHnmAYjknZtpHQkxeZq4wc2RBDO2YtQIXv3nUASWoU3RA0wa2unyZgUIVOBGQSMMqhKN8I+TtvQJpmnfqDRA7ok2Zkd80EyC1Z/dmJV7VbZv03/TsjOov2pUDndcotiIWbzd8j+D2E7hvie0T/Ya4ue/7k1RifLyCgmmo7iSq0ATTMPF+wJa4hrT8/x3s0YWAJngJJG1WJAPU2Nl47my7EuBE=', 
+    session: 'idk', 
     connectionRetries: 3
 })
 const bot = new Telegraf(token);
 
 // DATA BOT
-const adminBot = 1434949478
-const ubot = "ConfesRobot"
+const adminBot = 'idk'
+const ubot = "idk"
 const ver = "1.0.1"
 const aname = "TheAlexSandro"
 
